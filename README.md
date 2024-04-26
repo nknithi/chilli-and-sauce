@@ -12,7 +12,7 @@ Welcome to the Chilli & Sauce Restaurant Website project!
 - [License](#license)
 - [Additional Information](#additional-information)
 
-  ## Introduction
+## Introduction
 
 The Chilli & Sauce Restaurant Website is a static HTML webpage designed to showcase the offerings of a restaurant. It provides visitors with information about the restaurant's menu, contact details, and background. The project aims to create an engaging online presence for the restaurant, enticing potential customers to explore its offerings.
 
