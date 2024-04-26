@@ -1,0 +1,254 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px 0;
+  font-family: Chewy, sans-serif;
+}
+
+.homecontainer {
+  height: 100%;
+  background-size: cover;
+  background-image: url(images/homepage-image.jpg);
+  background-repeat: no-repeat;
+}
+
+.gradientdiv {
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  height: 100%;
+}
+
+.headerdiv {
+  border-bottom: 10px groove red;
+  justify-content: end;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url(images/header-image.jpg);
+  background-position: center;
+}
+
+.logodiv {
+
+  margin-left: 30px;
+  padding: 10px;
+  text-align: left;
+}
+
+.title {
+  color: whitesmoke;
+  font-family: Chewy, sans-serif;
+  font-size: 91px;
+  text-decoration: none;
+}
+
+.buttonsdiv {
+  width: 100%;
+  text-align: center;
+}
+
+.button {
+  transition: background-color 0.5s ease;
+  padding: 10px 50px;
+  background-color: whitesmoke;
+  border-bottom: none;
+  font-size: 18px;
+  font-family: Chewy, sans-serif;
+  border-width: 3px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.button:hover {
+  background-color: red;
+  color: whitesmoke;
+
+}
+
+.content {
+  padding: 20px;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  text-align: center;
+  margin-top: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  color: whitesmoke;
+  width: 40%;
+  font-family: 'Caveat Brush', 'Courier New', Courier, monospace;
+}
+
+.content h1 {
+  font-size: 40px;
+}
+
+.content p {
+  padding: 20px 70px;
+  font-size: 20px;
+}
+
+.orderbutton {
+  font-family: 'Caveat Brush', 'Courier New', Courier, monospace;
+  transition: background-color 0.7s;
+  padding: 10px 50px;
+  background-color: green;
+  font-size: 18px;
+  font-family: Chewy, sans-serif;
+  border-width: 3px;
+  border-radius: 10px;
+  color: white;
+}
+
+.orderbutton:hover {
+  background-color: whitesmoke;
+  color: green;
+  font-size: 20px;
+}
+
+.contactpagediv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+
+}
+
+.contactpageleft {
+  height: 100%;
+
+}
+
+.contactpageright {
+  height: 100%;
+  background-size: cover;
+  background-image: url(images//contactus-image.jpg);
+}
+
+.contactformdiv {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+  margin-top: 150px;
+}
+
+.contactformdiv form {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.spanstyle {
+  color: red;
+  font-size: 1.5em;
+}
+
+.inputtext {
+  padding: 10px;
+  margin: 0px;
+  border: 2px solid silver;
+  font-family: Helvetica, Arial, sans-serif;
+  border-radius: 10px;
+}
+
+#submitbutton {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: green;
+}
+
+#submitbutton:hover {
+  color: whitesmoke;
+  background-color: gray;
+
+}
+
+.aboutcontainer {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+
+.aboutleftdiv {
+  background-image: url(images/aboutus-image.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.aboutrightdiv {
+  padding: 30px;
+  height: 100%;
+  background-image: linear-gradient(-60deg, rgba(255, 87, 87, 0.8), rgba(240, 150, 26, 0.8) 100%);
+}
+
+.aboutrightdiv p {
+  font-family: 'Kalam', 'Courier New', Courier, monospace;
+}
+
+.menumainlabel {
+  padding: 5px;
+  text-align: center;
+  border: 2px solid black;
+  border-width: 2px 3px 3px 2px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+  font-weight: bold;
+  color: green;
+  background-color: rgb(250, 243, 234);
+  font-family: 'Caveat Brush', 'Courier New', Courier, monospace;
+}
+
+.menucontainer {
+  padding: 10px;
+}
+
+.menudiv {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px 10px 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(-60deg, rgba(255, 87, 87, 0.8), rgba(240, 150, 26, 0.8) 100%);
+}
+
+.menuitem {
+  display: inline-block;
+}
+
+.menuitem img {
+  width: 261px;
+  height: 206px;
+  border-radius: 5px;
+}
+
+.menuitemlabel {
+  text-align: center;
+  border: 2px solid black;
+  font-family: 'Caveat Brush', 'Courier New', Courier, monospace;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 2px;
+  background-image: linear-gradient(to right bottom, blanchedalmond, rgb(245, 189, 106));
+  transition: background-color 0.5s ease;
+  transition: border-radius 0.3s ease;
+}
+
+.menuitemlabel:hover {
+  background-image: linear-gradient(green, rgb(0, 110, 0));
+  color: whitesmoke;
+  border-radius: 12px;
+  background-position: right center;
+}
