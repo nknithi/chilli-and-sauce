@@ -28,7 +28,7 @@ The Chilli & Sauce Restaurant Website is a static HTML webpage designed to showc
 To run the Chilli & Sauce Restaurant Website locally, follow these steps:
 
 ```
-git clone https://github.com/your-username/chilli-and-sauce.git
+git clone https://github.com/nknithi/chilli-and-sauce.git
 cd chilli-and-sauce
 ```
 
